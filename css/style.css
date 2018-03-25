@@ -9,6 +9,10 @@ body{
     grid-template-columns: fit-content(20%) auto;
 }
 
+select{
+    display: none;
+}
+
 #logo{
     display: inline-block;
     margin-left: 15px;
@@ -194,9 +198,12 @@ footer{
     text-align: center;
 }
 
-/*@media screen and (max-width: 480px) {
- nav {
+@media screen and (max-width: 480px) {
+ /*nav {
  display: block;
+ }*/
+ select{
+    display: grid;
  }
 }
 
@@ -204,4 +211,3 @@ footer{
  nav ul { display: none; }
  nav select { display: inline-block; }
 }
-*/
